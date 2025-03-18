@@ -14,4 +14,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>example-java-package</name>
+            <url>https://maven.pkg.github.com/asyrawih/example-java-package</url>
+        </repository>
+    </distributionManagement>
+
 </project>
